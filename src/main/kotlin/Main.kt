@@ -1,3 +1,6 @@
-fun main(args: Array<String>) {
-    println("Hello World!")
+fun main() {
+    val mainMenu = MainMenu("Главное меню")
+    println("Приложение заметок запущено")
+    mainMenu.onOpen()
+    println("Приложение заметки закрыто")
 }
